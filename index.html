@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTI_STEP_FORM</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Nerko+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Registraton From</h1>
+
+
+        <form onsubmit="takevalue()" method="post">
+
+
+            <label for="">NAME:-</label>
+            <input required type="text" name="Name" id="name">
+
+            <label for="">PHONE NO:-</label>
+            <input required type="number" name="Mobile" id="number">
+
+            <label for="">EMAIL:-</label>
+            <input required type="email" name="EMAIL" id="email">
+
+            <label for="">ADDRESS:-</label>
+            <textarea cols="30" rows="10" id="address"> ENTER YOUR TEXT HERE!!! </textarea>
+
+
+            <span>
+                <input required type="radio" name="radio" id="Male">Male
+                <input required type="radio" name="radio" id="Female">Female
+                <input required type="radio" name="radio" id="Other">Other
+            </span>
+
+            <a href="thankyou.html">
+                <button type="submit">SUBMIT</button></a>
+
+
+
+
+        </form>
+
+
+
+
+    </div>
+
+    <script src="form.js"></script>
+    
+</body>
+</html>
